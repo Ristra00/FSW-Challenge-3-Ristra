@@ -64,7 +64,7 @@
   </section>
 
   <section id="section-games" class="section-background vertically-center">
-    <div id="game-titile">
+    <div id="section-games-title" class="game-titile">
       <h3>What's so special?</h3>
       <h2>THE GAMES</h2>
     </div>
@@ -108,8 +108,10 @@
 
     </div>
     <div class="div-40">
-      <h3>What's so special?</h3>
-      <h2>FEATURES</h2>
+      <div class="game-titile">
+        <h3>What's so special?</h3>
+        <h2>FEATURES</h2>
+      </div>
       <div id="features">
         <ul>
           <li>TRADITIONAL GAMES <br> <span>if you miss your childhood, we provide many traditional games here</span></li>
@@ -122,8 +124,10 @@
 
   <section id="section-requirements" class="section-background vertically-center">
     <div class="div-40 margin-center">
-      <h3>Can my computer run this game?</h3>
-      <h2>SYSTEM REQUIREMENTS</h2>
+      <div class="game-titile">
+        <h3>Can my computer run this game?</h3>
+        <h2>SYSTEM REQUIREMENTS</h2>
+      </div>
       <table id="req-table" class="table table-bordered">
         <tr>
           <td><span>OS:</span> <br> Windows 7-64 bit only <br> (No OSX support at this time) </td>
@@ -144,12 +148,16 @@
 
   <section id="section-scores" class="section-background vertically-center">
     <div class="div-40 margin-center ">
-      <h2>TOP SCORES</h2>
-      <h3>This top score from various games provided on this platform</h3>
-      <button class="btn-play btn-warning">see more</button>
+      <div class="game-titile">
+        <h2>TOP SCORES</h2>
+        <h3>This top score from various games provided on this platform</h3>
+      </div>
+      <div id="score-btn">
+        <button class="btn-play btn-warning">see more</button>
+      </div>
     </div>
     <div class="div-60">
-      <div class="card bg-dark text-white p-3" style="width: 24rem; margin-left: 75px;">
+      <div id="card-1" class="card bg-dark text-white p-3">
         <div class="card-profile">
           <div class="left-profile">
             <img src="resources/person.jpg" class="card-img rounded-circle">
@@ -167,7 +175,7 @@
           <p class="detail-date">October 18, 2018</p>
         </div>
       </div>
-      <div class="card bg-dark text-white p-3" style="width: 24rem">
+      <div id="card-2" class="card bg-dark text-white p-3">
         <div class="card-profile">
           <div class="left-profile">
             <img src="resources/person.jpg" class="card-img rounded-circle">
@@ -185,7 +193,7 @@
           <p class="detail-date">October 18, 2018</p>
         </div>
       </div>
-      <div class="card bg-dark text-white p-3" style="width: 24rem; margin-left: 75px;">
+      <div id="card-3" class="card bg-dark text-white p-3">
         <div class="card-profile">
           <div class="left-profile">
             <img src="resources/person.jpg" class="card-img rounded-circle">
@@ -202,6 +210,9 @@
           <p>"One of my gamming highlights of the year."</p>
           <p class="detail-date">October 18, 2018</p>
         </div>
+      </div>
+      <div id="score-btn-mobile">
+        <button class="btn-play btn-warning">see more</button>
       </div>
     </div>
   </section>

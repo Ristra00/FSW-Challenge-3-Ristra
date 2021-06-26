@@ -1,0 +1,139 @@
+/* For Tablets */
+/* Add a breakpoint at max-width: 1000px */
+@media(max-width: 1000px){
+  h1 {
+    font-size: 45px;
+  }
+
+  h2 {
+    font-size: 40px;
+  }
+
+  h3 {
+    font-size: 16px;
+  }
+
+  p {
+    font-size: 12px;
+  }
+
+  .btn-play {
+    font-size: 14px;
+    padding: 12px 60px;
+  }
+
+  #carousel-game {
+    height: 200px;
+    width: 480px;
+  }
+
+  #features li {
+    font-size: 16px;
+    margin-bottom: 12px;
+  }
+
+  #section-requirements .div-40 {
+    width: 55%;
+  }
+
+  #section-requirements .div-60 {
+    width: 45%;
+  }
+
+  .card {
+    width: 20rem;
+  }
+}
+
+
+/* For Smartphones */
+/* Add a breakpoint at max-width: 670px */
+@media(max-width: 670px){
+  h1 {
+    font-size: 32px;
+  }
+
+  h2 {
+    font-size: 28px;
+  }
+
+  h3 {
+    font-size: 14px;
+  }
+
+  p {
+    font-size: 12px;
+  }
+
+  .btn-play {
+    font-size: 14px;
+    padding: 12px 40px;
+  }
+
+  .vertically-center {
+    display: block;
+    padding: 100px 0;
+  }
+
+  #section-games-title {
+    width: 100%;
+  }
+
+  .game-titile {
+    margin: 0 30px 30px 30px;
+  }
+  
+  #carousel-game {
+    width: 100%;
+    height: 120px;
+    width: 300px;
+    margin: 0 auto;
+  }
+
+  #features li {
+    margin-left: 30px;
+  }
+
+  .div-40 {
+    width: 100%;
+  }
+
+  .div-60 {
+    width: 100%;
+  }
+
+  .margin-center {
+    margin: 0 0;
+  }
+
+  #req-table {
+    margin-top: 40px;
+    margin-left: 30px;
+  }
+
+  #score-btn {
+    display: none;
+  }
+
+  #score-btn-mobile {
+    display: block;
+  }
+
+  #section-scores .btn-play  {
+    margin:0 auto;
+    display: block;
+    margin-top: 20px;
+    margin-bottom: 20px;
+  }
+
+  #card-1, #card-2, #card-3 {
+    margin: 0 auto;
+    margin-bottom: 10px;
+  }
+
+  .card {
+    width: 18rem;
+  }
+
+
+}

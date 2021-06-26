@@ -92,7 +92,7 @@ h3, p {
   height: 100vh;
 }
 
-#game-titile {
+#section-games-title {
   width: 30%;
 }
 
@@ -158,7 +158,16 @@ td, tr {
   border: solid 1px rgba(255, 255, 255, 0.3);
 }
 
+#score-btn-mobile {
+  display: none;
+}
+
+#card-1, #card-3 {
+  margin-left: 75px;
+}
+
 .card {
+  width: 24rem;
   border-radius: 10px;
   margin-bottom: 20px;
 }
